@@ -19,7 +19,7 @@ p, ul{
 header nav>a{
     background-color: #40296D;
     color: #F9E5ED;
-    padding: 1rem;
+    padding: .5rem;
     margin: -1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -28,7 +28,82 @@ header nav>a{
     text-align: center;
     text-decoration: none;
     border-bottom: 2px solid #F9E5ED;
+    font-size: 30px;
 }
-nav a:hover{
+nav>a:hover{
     background-color: #EE2C64;
+}
+.home img{
+    width: 425px;
+    margin: .25rem;
+}
+.home p{
+    text-align: center;
+    color: #40296D;
+    font-size: 24px;
+}
+.button{
+    background-color:#EE2C64;
+    text-align: center;
+    padding: 1rem;
+}
+.button:hover{
+    background-color: #40296D;
+}
+.button>a{
+    color: #F9E5ED;
+    text-decoration: none;
+    font-size: 60px;
+}
+.vip h1{
+    color: #40296D;
+    font-size: 75px;
+    text-align: center;
+    margin: 0%;
+    padding: .5rem;
+}
+.ga h1{
+    color: #40296D;
+    font-size: 75px;
+    text-align: center;
+    margin: 0%; 
+    padding-top: 2rem;
+}
+.vip ul, .ga ul{
+    color: #40296D;
+    font-size: 20px;
+}
+.form{
+    color: #40296D;
+    font-size: 25px;
+    font-family: "ladislav", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.form div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+input[type=number]{
+    width: 2rem;
+    height: 2.5rem;
+    border: 2px solid #40296D;
+}
+input[type=submit]{
+    background-color: #EE2C64;
+    font-family: "ladislav", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    border-style: none;
+    color: #F9E5ED;
+    padding: .5rem;
+}
+.form .qty{
+    text-align: right;
+    justify-content: flex-end;
+}
+.qty p{
+    margin: 0%;
 }
