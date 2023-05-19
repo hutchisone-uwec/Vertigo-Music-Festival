@@ -197,5 +197,29 @@ input[type=text]{
     .form{
         margin-right: 20rem;
     }
+    .map img{
+        width: 700px;
+        display: block;
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-left: 33rem;
+        margin-right: 30rem;
+    }
+    .hotels, .parking, .faqs{
+        margin-left: 30rem;
+        margin-right: 33rem;
+    }
+    .applyinfo img{
+        width: 600px;
+        margin-left: 33rem;
+        margin-right: 30rem;
+    }
+    .applyinfo{
+        text-align: center;
+    }
+    .apply{
+        margin-left: 50rem;
+        margin-right: 30rem;
+    }
 }
 
